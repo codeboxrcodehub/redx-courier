@@ -37,6 +37,15 @@ class OrderApi extends BaseApi
         return $response->parcel;
     }
 
+    /**
+     * Parcel tracking
+     *
+     * @param string $trackingId
+     *
+     * @return mixed
+     * @throws GuzzleException
+     * @throws RedxException
+     */
     public function tracking($trackingId)
     {
         $response = $this->authorization()->send("GET", "v1.0.0-beta/parcel/track/{$trackingId}");
