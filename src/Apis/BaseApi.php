@@ -39,7 +39,7 @@ class BaseApi
      */
     private function setBaseUrl()
     {
-        if (config("pathao.sandbox") == true) {
+        if (config("redx.sandbox") == true) {
             $this->baseUrl = "https://sandbox.redx.com.bd";
         } else {
             $this->baseUrl = "https://openapi.redx.com.bd";
