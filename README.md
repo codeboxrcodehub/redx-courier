@@ -10,6 +10,15 @@
 
 This is a Laravel/PHP package for [Redx](https://redx.com.bd/) BD Courier System. This package can be used in laravel or without laravel/php projects. You can use this package for headless/rest implementation as well as blade or regular mode development. We created this package while working for a project and thought to made it release for all so that it helps. This package is available as regular php [composer package](https://packagist.org/packages/codeboxr/redx-courier).
 
+## Features
+
+1. [Fetch Redx delivery area list](https://github.com/codeboxrcodehub/redx-courier#1-get-redx-delivery-area-list)
+2. [Create new store](https://github.com/codeboxrcodehub/redx-courier#2-create-new-store)
+3. [Store list](https://github.com/codeboxrcodehub/redx-courier#3-get-store-list)
+4. [Store details](https://github.com/codeboxrcodehub/redx-courier#4-store-details)
+5. [Create new parcel](https://github.com/codeboxrcodehub/redx-courier#5-create-new-parcel)
+6. [Parcel details](https://github.com/codeboxrcodehub/redx-courier#6-get-order-details)
+7. [Parcel tracking](https://github.com/codeboxrcodehub/redx-courier#7-order-tracking)
 
 
 ## Requirements
